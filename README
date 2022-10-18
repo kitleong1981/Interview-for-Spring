@@ -10,7 +10,7 @@ Contains the following files
 
 sql.txt - database schema for mysql
 
-conf.php - Store ID / PWD, commcon function scripts
+conf.php - Store ID / PWD, common function scripts
 
 index.php - System homepage
 basicbtn.php - Default include button page
