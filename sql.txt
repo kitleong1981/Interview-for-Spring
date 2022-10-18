@@ -1,0 +1,7 @@
+Database mysql for Company basic info
+CREATE TABLE `inteview`.`company_db` ( `Id` INT NOT NULL AUTO_INCREMENT , `name` VARCHAR(255) NOT NULL , `address` TEXT NOT NULL , PRIMARY KEY (`Id`)) ENGINE = InnoDB;
+ALTER TABLE `employees_db` CHANGE `Id` `Id` INT(11) NOT NULL AUTO_INCREMENT;
+
+Database mysql for employees
+CREATE TABLE `inteview`.`employees_db` ( `Id` INT NOT NULL , `name` VARCHAR(200) NOT NULL , `company` INT NOT NULL  , PRIMARY KEY (`Id`)) ENGINE = InnoDB;
+ALTER TABLE `employees_db` CHANGE `Id` `Id` INT(11) NOT NULL AUTO_INCREMENT;
