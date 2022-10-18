@@ -14,8 +14,18 @@ conf.php - Store ID / PWD, commcon function scripts
 
 index.php - System homepage
 basicbtn.php - Default include button page
-buildcompany - Include build company function page
-buildemployee.php - Include build employee function page
 
+buildcompany.php - Include build company function page
+buildemployee.php - Include build employee function page
+showcompany.php - Show all company datas
+showemployees.php - Show all employees datas
 save_company.php - Save new build company function script
 save_employee.php - Save new build employee function script
+
+Structure
+
+Index --- Default - include "basicbtn.php"
+             --- Show all companies - include the "showcompany.php"
+             --- Show all employees - include the showemployees.php"
+             --- Build company info - include the "buildcompany.php"  --- SAVE: "save_company.php"
+             --- Build employee info - include the "buildemployee.php"  --- SAVE: "save_employee.php"
