@@ -3,3 +3,19 @@ This is for Code challenge @ Spring Systems
 Working php and mysql database I also have the live version here:
 
 https://dcaid.com/code_challenge/
+
+This program use bootstrap 5 as basic framework, using CDN for it's CSS, JS
+
+Contains the following files
+
+sql.txt - database schema for mysql
+
+conf.php - Store ID / PWD, commcon function scripts
+
+index.php - System homepage
+basicbtn.php - Default include button page
+buildcompany - Include build company function page
+buildemployee.php - Include build employee function page
+
+save_company.php - Save new build company function script
+save_employee.php - Save new build employee function script
