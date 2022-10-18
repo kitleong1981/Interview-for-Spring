@@ -6,7 +6,7 @@ https://dcaid.com/code_challenge/
 
 This program use bootstrap 5 as basic framework, using CDN for it's CSS, JS
 
-Contains the following files
+Contain the following files
 
 sql.txt - database schema for mysql
 

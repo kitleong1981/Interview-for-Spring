@@ -5,7 +5,7 @@ if (!empty($datas)) {
     echo "<div class='table-responsive'><table class='table table-hover'>\n";
     echo "<thead><tr><td>Company Name</td><td>Employee Name</td></tr></thead><tbody>\n";
     for ($i=0; $i<count($datas);$i++) {
-        foreach ($datas[$i] as $key=>$value) $$key=$value;
+        foreach ($datas[$i] as $key=>$value) $$key=htmlspecialchars_decode($value);
         echo "<tr'><td>$company_name</td><td>$name</td></a></tr>\n";
     }
     echo "</tbody></table></div>";
